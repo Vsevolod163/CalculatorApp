@@ -20,6 +20,16 @@ final class ViewController: UIViewController {
         numberLabel.text = "0"
     }
 
+    @IBAction func tapDotButton(_ sender: UIButton) {
+        if stringOfNumbers == "" {
+            stringOfNumbers += "0."
+            numberLabel.text = stringOfNumbers
+        } else if !stringOfNumbers.contains(".") && stringOfNumbers.count <= 8 {
+            stringOfNumbers += "."
+            numberLabel.text = stringOfNumbers
+        }
+    }
+    
     @IBAction func tapZeroButton(_ sender: UIButton) {
         if stringOfNumbers.count <= 8 {
             stringOfNumbers += "0"
