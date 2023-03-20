@@ -10,11 +10,19 @@ import UIKit
 final class ViewController: UIViewController {
 
     @IBOutlet var numberLabel: UILabel!
-    @IBOutlet var rightButton: UIButton!
-    @IBOutlet var leftButton: UIButton!
+    
+    @IBOutlet var zeroNumberButton: UIButton!
+    @IBOutlet var numberNineButton: UIButton!
+    @IBOutlet var numberEightButton: UIButton!
+    @IBOutlet var numberSevenButton: UIButton!
+    @IBOutlet var numberSixButton: UIButton!
+    @IBOutlet var numberFiveButton: UIButton!
+    @IBOutlet var numberFourButton: UIButton!
+    @IBOutlet var numberThreeButton: UIButton!
+    @IBOutlet var numberTwoButton: UIButton!
+    @IBOutlet var numberOneButton: UIButton!
     @IBOutlet var clearButton: UIButton!
     
-    private var count = 0
     private var result = 0
     private var sign = ""
     
@@ -23,38 +31,25 @@ final class ViewController: UIViewController {
         numberLabel.text = "0"
     }
     
-    @IBAction func getHigherNumberButton(_ sender: UIButton) {
-        numberLabel.text = String(count + 1)
-        count += 1
-    }
-    
-    @IBAction func getLowerNumberButton(_ sender: UIButton) {
-        numberLabel.text = String(count - 1)
-        count -= 1
-    }
-    
+
     @IBAction func getPlusButton(_ sender: UIButton) {
         result = Int(numberLabel.text ?? "") ?? 0
         sign = "+"
-        count = 0
     }
     
     @IBAction func getMinusButton(_ sender: UIButton) {
         result = Int(numberLabel.text ?? "") ?? 0
         sign = "-"
-        count = 0
     }
     
     @IBAction func getMultiplyButton(_ sender: UIButton) {
         result = Int(numberLabel.text ?? "") ?? 0
-        sign = "*"
-        count = 0
+        sign = "x"
     }
     
     @IBAction func getDivisionButton(_ sender: UIButton) {
         result = Int(numberLabel.text ?? "") ?? 0
-        sign = "/"
-        count = 0
+        sign = "÷"
     }
     
     @IBAction func getResultButton(_ sender: UIButton) {
@@ -77,12 +72,10 @@ final class ViewController: UIViewController {
         numberLabel.text = sign == "/" && Int(numberLabel.text ?? "") ?? 0 == 0
             ? "Ошибка"
             : String(result)
-        count = result
     }
     
     @IBAction func getClearResultButton(_ sender: UIButton) {
         result = 0
-        count = 0
         numberLabel.text = "0"
     }
 }

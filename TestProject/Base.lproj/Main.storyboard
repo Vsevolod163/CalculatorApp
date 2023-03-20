@@ -17,60 +17,83 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cva-WZ-Znq">
-                                <rect key="frame" x="193.66666666666666" y="159" width="42.666666666666657" height="83.666666666666686"/>
+                                <rect key="frame" x="193.66666666666666" y="79" width="42.666666666666657" height="83.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="-20" translatesAutoresizingMaskIntoConstraints="NO" id="UR9-DI-uoA">
-                                <rect key="frame" x="16" y="312.66666666666669" width="398" height="565.33333333333326"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dU7-iH-lp4">
+                                <rect key="frame" x="16" y="162.66666666666669" width="398" height="755.33333333333326"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="130" translatesAutoresizingMaskIntoConstraints="NO" id="CCa-RR-HtO">
-                                        <rect key="frame" x="88" y="0.0" width="222" height="156.33333333333334"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="w3s-k7-P51">
+                                        <rect key="frame" x="0.0" y="0.0" width="398" height="151"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pH-kl-DhR">
-                                                <rect key="frame" x="0.0" y="0.0" width="49" height="156.33333333333334"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIn-CC-Fif">
+                                                <rect key="frame" x="0.0" y="0.0" width="193" height="151"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="C">
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CQA-4G-2rx"/>
+                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eeb-cv-mdm"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6o2-2x-rDS">
-                                                <rect key="frame" x="179" y="0.0" width="43" height="156.33333333333334"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="=">
-                                                    <color key="titleColor" systemColor="systemYellowColor"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="getResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EYe-Ie-JdZ"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="130" translatesAutoresizingMaskIntoConstraints="NO" id="pdl-o4-qAQ">
-                                        <rect key="frame" x="104" y="136.33333333333331" width="190" height="156.33333333333331"/>
-                                        <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5l1-vq-mVy">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="156.33333333333334"/>
+                                                <rect key="frame" x="205" y="0.0" width="193" height="151"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="/">
+                                                <state key="normal" title="÷">
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="getDivisionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a05-U4-RhU"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saw-8A-FHC">
-                                                <rect key="frame" x="160" y="0.0" width="30" height="156.33333333333334"/>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lcQ-SP-8FU">
+                                        <rect key="frame" x="0.0" y="151.00000000000003" width="398" height="150.99999999999997"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOk-Os-ckS">
+                                                <rect key="frame" x="0.0" y="27.666666666666629" width="99.666666666666671" height="96"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="*">
+                                                <state key="normal" title="7">
+                                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dLR-1B-Pjd"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zto-yh-pIW">
+                                                <rect key="frame" x="99.666666666666686" y="27.666666666666629" width="99.333333333333314" height="96"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="8">
+                                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PsU-BC-IAI"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6P-3P-pjy">
+                                                <rect key="frame" x="199" y="27.666666666666629" width="99.666666666666686" height="96"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="9">
+                                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oCz-sU-5v1"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saw-8A-FHC">
+                                                <rect key="frame" x="298.66666666666669" y="27.666666666666629" width="99.333333333333314" height="96"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="x">
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
@@ -79,22 +102,44 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="130" translatesAutoresizingMaskIntoConstraints="NO" id="b5R-Km-57t">
-                                        <rect key="frame" x="97" y="272.66666666666669" width="204" height="156.33333333333331"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y5Z-ug-LiM">
+                                        <rect key="frame" x="0.0" y="302" width="398" height="151.33333333333337"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbp-yz-Uxe">
-                                                <rect key="frame" x="0.0" y="0.0" width="43" height="156.33333333333334"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVV-cY-Icb">
+                                                <rect key="frame" x="0.0" y="27.666666666666629" width="99.666666666666671" height="96"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="+">
+                                                <state key="normal" title="4">
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="getPlusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MZd-p9-uqc"/>
+                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YEq-9T-8cE"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jaa-8M-LCn">
+                                                <rect key="frame" x="99.666666666666686" y="27.666666666666629" width="99.333333333333314" height="96"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="5">
+                                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P50-4b-or2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76s-7I-34R">
+                                                <rect key="frame" x="199" y="27.666666666666629" width="99.666666666666686" height="96"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="6">
+                                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nz5-NA-wiv"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-w0-d8P">
-                                                <rect key="frame" x="173" y="0.0" width="31" height="156.33333333333334"/>
+                                                <rect key="frame" x="298.66666666666669" y="27.666666666666629" width="99.333333333333314" height="96"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="-">
@@ -106,29 +151,78 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="wAZ-cG-jJk">
-                                        <rect key="frame" x="76" y="408.99999999999994" width="246" height="156.33333333333331"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ITq-cs-Esv">
+                                        <rect key="frame" x="0.0" y="453.33333333333337" width="398" height="151"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54D-Rm-mW3">
-                                                <rect key="frame" x="0.0" y="0.0" width="73" height="156.33333333333334"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ec-ht-KAc">
+                                                <rect key="frame" x="0.0" y="27.333333333333371" width="99.666666666666671" height="96"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="&lt;-">
+                                                <state key="normal" title="1">
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="getLowerNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hkv-nG-d7K"/>
+                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fVG-no-4zk"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8si-Ef-cIR">
-                                                <rect key="frame" x="173" y="0.0" width="73" height="156.33333333333334"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTu-lr-1eS">
+                                                <rect key="frame" x="99.666666666666686" y="27.333333333333371" width="99.333333333333314" height="96"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="-&gt;">
+                                                <state key="normal" title="2">
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="getHigherNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xz1-r4-vlY"/>
+                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3gN-m8-sg4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjW-sk-d1z">
+                                                <rect key="frame" x="199" y="27.333333333333371" width="99.666666666666686" height="96"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="3">
+                                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a2K-k3-y7N"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbp-yz-Uxe">
+                                                <rect key="frame" x="298.66666666666669" y="27.333333333333371" width="99.333333333333314" height="96"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="+">
+                                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="getPlusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MZd-p9-uqc"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="buc-mf-kuY">
+                                        <rect key="frame" x="0.0" y="604.33333333333337" width="398" height="151"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62g-DJ-sqQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="193" height="151"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="0">
+                                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hg2-uS-MZ7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6o2-2x-rDS">
+                                                <rect key="frame" x="205" y="0.0" width="193" height="151"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="=">
+                                                    <color key="titleColor" systemColor="systemYellowColor"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="getResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EYe-Ie-JdZ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -139,24 +233,32 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UR9-DI-uoA" secondAttribute="bottom" constant="20" id="FEc-gW-MBd"/>
-                            <constraint firstItem="cva-WZ-Znq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="FSH-9A-whg"/>
+                            <constraint firstItem="dU7-iH-lp4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7cm-3t-OR8"/>
+                            <constraint firstItem="cva-WZ-Znq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="FSH-9A-whg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dU7-iH-lp4" secondAttribute="trailing" constant="16" id="GMj-PO-t2G"/>
                             <constraint firstItem="cva-WZ-Znq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Oq3-aG-YIg"/>
-                            <constraint firstItem="UR9-DI-uoA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Vuj-lX-ikR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UR9-DI-uoA" secondAttribute="trailing" constant="16" id="gKQ-qG-Vlf"/>
-                            <constraint firstItem="UR9-DI-uoA" firstAttribute="top" secondItem="cva-WZ-Znq" secondAttribute="bottom" constant="70" id="mnZ-Mj-O2X"/>
+                            <constraint firstItem="dU7-iH-lp4" firstAttribute="top" secondItem="cva-WZ-Znq" secondAttribute="bottom" id="l3l-PP-a0h"/>
+                            <constraint firstItem="dU7-iH-lp4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="20" id="u2b-S2-c56"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="clearButton" destination="3pH-kl-DhR" id="1OZ-hg-w3B"/>
-                        <outlet property="leftButton" destination="54D-Rm-mW3" id="bM6-EH-QNV"/>
+                        <outlet property="clearButton" destination="RIn-CC-Fif" id="wDf-gG-vvc"/>
+                        <outlet property="numberEightButton" destination="zto-yh-pIW" id="cfv-3h-IqA"/>
+                        <outlet property="numberFiveButton" destination="Jaa-8M-LCn" id="Wya-3Z-FQ6"/>
+                        <outlet property="numberFourButton" destination="iVV-cY-Icb" id="5Bp-ZI-SgQ"/>
                         <outlet property="numberLabel" destination="cva-WZ-Znq" id="ngf-Mc-dUz"/>
-                        <outlet property="rightButton" destination="8si-Ef-cIR" id="VEM-sZ-oaU"/>
+                        <outlet property="numberNineButton" destination="I6P-3P-pjy" id="ejp-sX-pul"/>
+                        <outlet property="numberOneButton" destination="1ec-ht-KAc" id="Sm4-Ty-rSh"/>
+                        <outlet property="numberSevenButton" destination="YOk-Os-ckS" id="L1q-4b-coM"/>
+                        <outlet property="numberSixButton" destination="76s-7I-34R" id="ior-3Y-Tya"/>
+                        <outlet property="numberThreeButton" destination="sjW-sk-d1z" id="KtD-eh-1em"/>
+                        <outlet property="numberTwoButton" destination="WTu-lr-1eS" id="khO-3E-DuD"/>
+                        <outlet property="zeroNumberButton" destination="62g-DJ-sqQ" id="OQI-BP-sHF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-385.11627906976742" y="150.64377682403435"/>
+            <point key="canvasLocation" x="-7" y="212"/>
         </scene>
     </scenes>
     <resources>
