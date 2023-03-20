@@ -36,7 +36,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="getClearResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eeb-cv-mdm"/>
+                                                    <action selector="tapClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SVs-lK-IEE"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5l1-vq-mVy">
@@ -47,7 +47,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="getDivisionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a05-U4-RhU"/>
+                                                    <action selector="tapDivisionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wiA-GQ-NG7"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -97,7 +97,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="getMultiplyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5QH-2U-uXg"/>
+                                                    <action selector="tapMultiplyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GEU-CT-eaW"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -146,7 +146,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="getMinusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RVH-Rc-ZSt"/>
+                                                    <action selector="tapMinusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ca3-U9-HUl"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -195,7 +195,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="getPlusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YaP-pu-DyL"/>
+                                                    <action selector="tapPlusButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NaK-tI-KQ4"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -222,7 +222,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="getResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EYe-Ie-JdZ"/>
+                                                    <action selector="tapResultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Sg-6d-N5g"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -248,7 +248,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="143" y="215"/>
+            <point key="canvasLocation" x="613" y="124"/>
         </scene>
     </scenes>
     <resources>

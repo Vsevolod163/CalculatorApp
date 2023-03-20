@@ -11,9 +11,6 @@ final class ViewController: UIViewController {
 
     @IBOutlet var numberLabel: UILabel!
     
-
-    @IBOutlet var clearButton: UIButton!
-    
     private var stringOfNumbers = ""
     private var result = 0.0
     private var sign = ""
@@ -92,31 +89,31 @@ final class ViewController: UIViewController {
         }
     }
     
-    @IBAction func getPlusButton(_ sender: UIButton) {
+    @IBAction func tapPlusButton(_ sender: UIButton) {
         result = Double(numberLabel.text ?? "") ?? 0.0
         sign = "+"
         stringOfNumbers = ""
     }
     
-    @IBAction func getMinusButton(_ sender: UIButton) {
+    @IBAction func tapMinusButton(_ sender: UIButton) {
         result = Double(numberLabel.text ?? "") ?? 0.0
         sign = "-"
         stringOfNumbers = ""
     }
     
-    @IBAction func getMultiplyButton(_ sender: UIButton) {
+    @IBAction func tapMultiplyButton(_ sender: UIButton) {
         result = Double(numberLabel.text ?? "") ?? 0.0
         sign = "x"
         stringOfNumbers = ""
     }
     
-    @IBAction func getDivisionButton(_ sender: UIButton) {
+    @IBAction func tapDivisionButton(_ sender: UIButton) {
         result = Double(numberLabel.text ?? "") ?? 0.0
         sign = "÷"
         stringOfNumbers = ""
     }
     
-    @IBAction func getResultButton(_ sender: UIButton) {
+    @IBAction func tapResultButton(_ sender: UIButton) {
         switch sign {
         case "+":
             result += Double(numberLabel.text ?? "") ?? 0.0
@@ -145,13 +142,13 @@ final class ViewController: UIViewController {
             numberLabel.text = String(intResult)
         }
         
+        sign = ""
         stringOfNumbers = ""
     }
     
-    @IBAction func getClearResultButton(_ sender: UIButton) {
+    @IBAction func tapClearButton(_ sender: UIButton) {
         result = 0
         numberLabel.text = "0"
         stringOfNumbers = ""
     }
 }
-
