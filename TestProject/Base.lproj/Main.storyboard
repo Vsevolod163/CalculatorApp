@@ -63,7 +63,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vSN-lz-qrY"/>
+                                                    <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eAm-wu-k22"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zto-yh-pIW">
@@ -74,7 +74,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ZH-AI-WKc"/>
+                                                    <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lUq-C6-9uj"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6P-3P-pjy">
@@ -85,7 +85,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gTr-zV-tZ0"/>
+                                                    <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8rn-kq-904"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saw-8A-FHC">
@@ -113,7 +113,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9gf-dk-VXm"/>
+                                                    <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z1N-vg-N46"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jaa-8M-LCn">
@@ -124,7 +124,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="apW-2v-Zrn"/>
+                                                    <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BBP-9k-LBw"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76s-7I-34R">
@@ -135,7 +135,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8PS-be-whG"/>
+                                                    <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WPr-1e-s6r"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-w0-d8P">
@@ -162,7 +162,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nA5-zb-koc"/>
+                                                    <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GYc-yG-goq"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTu-lr-1eS">
@@ -173,7 +173,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2qX-ul-XMZ"/>
+                                                    <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uoQ-2c-oMq"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sjW-sk-d1z">
@@ -184,7 +184,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pm5-tr-hnT"/>
+                                                    <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4eD-Wc-GZG"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbp-yz-Uxe">
@@ -211,7 +211,7 @@
                                                     <color key="titleColor" systemColor="systemYellowColor"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="tapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6es-kq-dqR"/>
+                                                    <action selector="tapNumberButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Wb-L7-k78"/>
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="iGn-mw-qdb">
